@@ -1,0 +1,139 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,700,400italic);
+
+
+/*GENERAL*/
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body{
+	background-color: #98A192;
+	color: #000000;
+	font-size: 14px;
+	font-family: Roboto, sans-serif;
+}
+
+.container{
+	width: 800px;
+	margin: 0 auto;
+}
+
+/*HEADER*/
+
+header{
+	margin-bottom: 50px;
+	margin-top: 30px;
+}
+
+.image-content{
+	width: 200px;
+	display: inline-block;
+	margin-left: 20px;
+}
+
+.logo{
+	max-width: 100%;
+	height: auto;
+}
+
+.title-content{
+	float: right;
+	color: #ffffff;
+	font-size: 32px;
+	margin-right: 100px;
+}
+
+
+/*MAIN ACCEUIL (index) + AFFICHAGE ARTICLE*/
+
+article{
+	width: 100%;
+	background-color: #ffffff;
+	border-radius: 15px;
+	margin-top: 10px;
+	padding: 10px;
+	word-wrap: break-word;
+}
+
+article::after{
+	content: "";
+	clear: both;
+	display: block;
+}
+
+.extrait-image{
+	width: 150px;
+	display: inline-block;
+	float: left;
+	padding: 5px;
+}
+
+article img{
+	max-width: 100%;
+	height: auto;	
+	border-radius: 10px;
+}
+
+.extrait-article{
+	width: 600px;
+	display: inline-block;
+	float: right;
+	padding: 5px;
+	word-wrap: break-word;
+}
+
+article a{
+	float: right;
+	padding-right: 20px;
+}
+
+.ajout{
+	text-align: right;
+	font-weight: bold;
+	margin: 25px;
+}
+
+.comment{
+	background-color: #ebebe0;
+	padding: 5px;
+	border-radius: 5px;
+}
+
+
+
+/*AJOUT COMMENTAIRE*/
+
+label{
+	display: block;
+	margin-bottom: 5px;
+	font-weight: bold;
+}
+
+input{
+	display: block;
+	margin-bottom: 15px;
+}
+
+textarea{
+	margin-bottom: 15px;
+}
+
+/*AFFICHEGE USERS*/
+
+.search{
+	display: inline-block;
+}
+
+/*FOOTER*/
+
+footer{
+	text-align: right;
+	color: #ffffff;
+	padding: 15px;
+}
+
+

@@ -1,0 +1,11 @@
+// fetchAll 
+
+$articles = array(
+	array(id => 1, title => "Mon titre", content => "contenu"),
+	array(id => 2, title => "Mon titre", content => "contenu"),
+	array(id => 3, title => "Mon titre", content => "contenu"),
+);
+
+
+// fetch
+$article = array(id => 1, title => "Mon titre", content => "contenu");

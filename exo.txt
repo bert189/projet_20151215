@@ -1,0 +1,39 @@
+# Créer un blog DRY (Don't Reapeat Yourself)
+
+	- Structure des pages :
+		- header avec un logo
+		- footer avec l'année en cours (dynamique)
+		- contenu
+
+	- homepage (page d'accueil) :
+		- liste des articles (affiche maxi 200 caractères + image)
+		- lien sur chaque article pour le lire en entier
+		- maximum 5 articles sur l'accueil (LIMIT)
+
+	- page de visualisation d'un article :
+		- article en entier
+		- image
+		- commentaires
+		- lien pour commenter un article
+
+	- page de publication d'un commentaire (formulaire) :
+		- pseudo (nickname)
+		- commentaire	
+
+	- page de publication d'un article (formulaire) :
+		- titre
+		- article
+		- lien image
+	
+
+# Structure de la base de données
+	- 1 table articles (id, title, img, content, date)
+	- 1 table users (id, nickname, date_registred)
+	- 1 table comments (id, comment, id_article, id_user, date)
+
+
+- Sur notre blog :
+
+	- Sur une nouvelle page, afficher la liste des utilisateurs ainsi que leur date d'enregistrement
+
+	- Créer un champ de recherche pour trouver nos utilisateurs
