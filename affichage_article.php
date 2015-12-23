@@ -1,6 +1,6 @@
 <?php 
 
-require_once 'inc/connexion.php'; // inclut la connexion à la base de donnée
+require_once 'inc/connexion.php';
 include_once 'inc/header.php';
 
 $reqArt = $bdd->prepare('SELECT * FROM articles WHERE id = :id');
